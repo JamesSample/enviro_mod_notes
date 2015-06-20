@@ -46,7 +46,7 @@ You can now work through the notebook **interactively**, modifying the code etc.
 
 ## Contents
 
-1. **[Distributions](http://nbviewer.ipython.org/github/JamesSample/James_Notes/blob/master/notebooks/01_Distributions.ipynb)**
+1. **[Distributions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb)**
 
     A quick overview of multivariate distributions, with the aim of developing some intuition about the **Sum** and **Product** rules as well as how they relate to **Bayes' Theorem**.<br><br>
     
