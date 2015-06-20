@@ -50,7 +50,7 @@ You can now work through the notebook **interactively**, modifying the code etc.
 
     A quick overview of multivariate distributions, with the aim of developing some intuition about the **Sum** and **Product** rules as well as how they relate to **Bayes' Theorem**.<br><br>
     
-2. **[Model calibration and likelihood functions](http://nbviewer.ipython.org/github/JamesSample/James_Notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
+2. **[Model calibration and likelihood functions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
 
     A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.
 
