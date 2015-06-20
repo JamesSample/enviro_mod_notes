@@ -1,5 +1,7 @@
 # Introductory statistics for environmental modelling
 
+## Introduction
+
 This page links to a series of IPython notebooks introducing statistical concepts for environmental modelling, especially **Bayesian Markov chain Monte Carlo (MCMC)** methods for model **calibration** and **uncertainty estimation**.
 
 Most of the examples are taken from hydrology or water quality modelling as that is my area of research, but the techniques presented are very general and applicable in a range of different fields.
