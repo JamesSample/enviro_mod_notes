@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Enviro mod notes : Introductory notes on environmental modelling and statistics">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Enviro mod notes</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/JamesSample/enviro_mod_notes">View on GitHub</a>
+
+          <h1 id="project_title">Enviro mod notes</h1>
+          <h2 id="project_tagline">Introductory notes on environmental modelling and statistics</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/JamesSample/enviro_mod_notes/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/JamesSample/enviro_mod_notes/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="introductory-statistics-for-environmental-modelling" class="anchor" href="#introductory-statistics-for-environmental-modelling" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introductory statistics for environmental modelling</h1>
+
+<p>This page links to a series of IPython notebooks introducing statistical concepts for environmental modelling, especially <strong>Bayesian Markov chain Monte Carlo (MCMC)</strong> methods for model <strong>calibration</strong> and <strong>uncertainty estimation</strong>.</p>
+
+<p>Most of the examples are taken from hydrology or water quality modelling as that is my area of research, but the techniques presented are very general and applicable in a range of different fields.</p>
+
+<p>As environmental models become more and more complex, the problems associated with calibration and evaluation become greater. Powerful statistical techniques are available to help, but for many environmental scientists they present a formidably steep learning curve. </p>
+
+<h2>
+<a id="who-are-these-notes-aimed-at" class="anchor" href="#who-are-these-notes-aimed-at" aria-hidden="true"><span class="octicon octicon-link"></span></a>Who are these notes aimed at?</h2>
+
+<p>My aim is to try to make Bayesian MCMC methods accessible to those with little or no statistical training. If you know what a <strong>distribution</strong> is and are comfortable with the concept of <strong>integration</strong> as the area under a curve, you should be able to follow everything here. </p>
+
+<p>In most cases I've abandoned mathematical rigour in favour of trying to give some kind of intuition for what's going on. Much of what I've done will probably be horrifying if you're a statistician or a physicist, but if you're just getting to grips with modelling for the first time perhaps this could be a stepping-stone towards better things (see below for some suggestions).</p>
+
+<h2>
+<a id="disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Disclaimer</h2>
+
+<p>My background is in geology, not statistics or hydrological modelling. I still have a great deal to learn and I'm sure these pages will contain mistakes and misconceptions. If you spot anything <em>completely wrong</em> (as opposed to just very simplified), I'm always happy to be corrected.</p>
+
+<p>This isn't a formal course in statistics - it's just a set of notes that I'm making available online in the hope that others find them useful.</p>
+
+<h2>
+<a id="other-resources" class="anchor" href="#other-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Other resources</h2>
+
+<p>If you're mathematically inclined, you're unlikely to find anything better than David MacKay's excellent book, <a href="http://www.inference.phy.cam.ac.uk/itila/book.html">Information Theory, Inference and Learning Algorithms</a>, together with the accompanying series of <a href="http://www.inference.phy.cam.ac.uk/itprnn/Videos.shtml">video lectures</a>. If you can follow these without too much difficulty then forget my notes and concentrate your efforts here instead!</p>
+
+<p>I also thoroughly recommend Jake Vanderplas' series of <a href="http://jakevdp.github.io/blog/2014/03/11/frequentism-and-bayesianism-a-practical-intro/">blog posts</a> as well as his <a href="http://arxiv.org/abs/1411.5018">article on arXiv</a>. </p>
+
+<p>Cam Davidson-Pilon's <a href="https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/">Probabilistic Programming and Bayesian Methods for Hackers</a> is another excellent reference.</p>
+
+<p>Finally, if you're interested in these topics for work/research purposes (e.g. if you've just started a PhD in environmental modelling), I'd suggest taking a look at the <a href="http://www.eawag.ch/forschung/siam/lehre/summerschool/index_EN">EAWAG Summer School in Environmental Systems</a>, which I wish I'd attended a couple of years ago.</p>
+
+<h2>
+<a id="making-the-most-of-the-ipython-notebooks" class="anchor" href="#making-the-most-of-the-ipython-notebooks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Making the most of the IPython notebooks</h2>
+
+<p>The links below will take you to static versions of my notebooks rendered with <a href="http://nbviewer.ipython.org/">nbviewer</a>. However, to get the most of out of them, I recommend downloading each notebook to your computer and running it interactively. The following steps should get you started on Windows:</p>
+
+<ol>
+<li><p>You'll need an up-to-date IPython installation. If you don't have one already try <a href="http://winpython.sourceforge.net/">WinPython</a>, which is a comprehensive and portable Python distribution that won't interfere with anything else on your system.<br><br> </p></li>
+<li><p>Once WinPython is installed, go to one of the notebooks below and download the <strong>.ipynb</strong> file to your computer (the "download" icon is at the top-right of the screen).<br><br></p></li>
+<li><p>Open the folder containing your WinPython installation and run the <strong>WinPython Command Prompt</strong> (not the normal Windows Command Prompt).<br><br></p></li>
+<li><p><strong>Change directories</strong> to wherever you saved the <strong>.ipynb</strong> file and then type <code>ipython notebook</code> at the command prompt. Your browser should open to display the IPython dashboard and you'll see a link to the notebook you just downloaded.<br><br></p></li>
+<li><p>Click to open the notebook then choose <code>Cell &gt; Run All</code> from the menu bar. Python will import all the necessary modules and run the notebook cells, which might take a few moments.<br><br></p></li>
+</ol>
+
+<p>You can now work through the notebook <strong>interactively</strong>, modifying the code etc. as you go.</p>
+
+<h2>
+<a id="contents" class="anchor" href="#contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contents</h2>
+
+<ol>
+<li>
+<p><strong><a href="http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb">Distributions</a></strong></p>
+
+<p>A quick overview of multivariate distributions, with the aim of developing some intuition about the <strong>Sum</strong> and <strong>Product</strong> rules as well as how they relate to <strong>Bayes' Theorem</strong>.<br><br></p>
+</li>
+<li>
+<p><strong><a href="http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb">Model calibration and likelihood functions</a></strong></p>
+
+<p>A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important <strong>likelihood function</strong>.</p>
+</li>
+</ol>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Enviro mod notes maintained by <a href="https://github.com/JamesSample">JamesSample</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
