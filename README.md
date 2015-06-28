@@ -1,6 +1,16 @@
 # Introductory statistics for environmental modelling
 
-## Introduction
+## Contents
+
+1. **[Distributions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb)**
+
+    A quick overview of multivariate distributions, with the aim of developing some intuition about the **Sum** and **Product** rules as well as how they relate to **Bayes' Theorem**.<br><br>
+    
+2. **[Model calibration and likelihood functions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
+
+    A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.
+
+# Introduction
 
 This page links to a series of IPython notebooks introducing statistical concepts for environmental modelling, especially **Bayesian Markov chain Monte Carlo (MCMC)** methods for model **calibration** and **uncertainty estimation**.
 
@@ -18,7 +28,7 @@ In most cases I've abandoned mathematical rigour in favour of trying to give som
 
 My background is in geology, not statistics or hydrological modelling. I still have a great deal to learn and I'm sure these pages will contain mistakes and misconceptions. If you spot anything *completely wrong* (as opposed to just very simplified), I'm always happy to be corrected.
 
-This isn't a formal course in statistics - it's just a set of notes that I'm making available online in the hope that others find them useful.
+This isn't a course in statistics - it's just a set of notes that I'm making available online in the hope that others find them useful.
 
 ## Other resources
 
@@ -32,7 +42,7 @@ Finally, if you're interested in these topics for work/research purposes (e.g. i
 
 ## Making the most of the IPython notebooks
 
-The links below will take you to static versions of my notebooks rendered with [nbviewer](http://nbviewer.ipython.org/). However, to get the most of out of them, I recommend downloading each notebook to your computer and running it interactively. The following steps should get you started on Windows:
+The links at the top of this page will take you to static versions of my notebooks rendered with [nbviewer](http://nbviewer.ipython.org/). However, to get the most of out of them, I recommend downloading each notebook to your computer and running it interactively. The following steps should get you started on Windows:
 
 1. You'll need an up-to-date IPython installation. If you don't have one already try [WinPython](http://winpython.sourceforge.net/), which is a comprehensive and portable Python distribution that won't interfere with anything else on your system.<br><br> 
 
@@ -45,14 +55,3 @@ The links below will take you to static versions of my notebooks rendered with [
 5. Click to open the notebook then choose `Cell > Run All` from the menu bar. Python will import all the necessary modules and run the notebook cells, which might take a few moments.<br><br>
 
 You can now work through the notebook **interactively**, modifying the code etc. as you go.
-
-## Contents
-
-1. **[Distributions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb)**
-
-    A quick overview of multivariate distributions, with the aim of developing some intuition about the **Sum** and **Product** rules as well as how they relate to **Bayes' Theorem**.<br><br>
-    
-2. **[Model calibration and likelihood functions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
-
-    A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.
-
