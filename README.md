@@ -26,7 +26,7 @@ In most cases I've abandoned mathematical rigour in favour of trying to give som
 
 ## Disclaimer
 
-My background is in geology, not statistics or hydrological modelling. I still have a great deal to learn and I'm sure these pages will contain mistakes and misconceptions. If you spot anything *completely wrong* (as opposed to just very simplified), I'm always happy to be corrected.
+My background is in geology, not statistics or hydrological modelling. I still have a great deal to learn and I'm sure these pages will contain mistakes and misconceptions. If you spot anything *completely wrong* (as opposed to just very simplified), I'm always happy to be corrected - you can either send a **pull request**, or contact <james.e.sample@gmail.com>.
 
 This isn't a course in statistics - it's just a set of notes that I'm making available online in the hope that others find them useful.
 
