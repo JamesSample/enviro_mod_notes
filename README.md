@@ -10,6 +10,10 @@
 
     A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.
 
+3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
+
+    A first look at Bayes' Theorem applied to model calibration and an introduction to Monte Carlo (MC) methods.
+
 # Introduction
 
 This page links to a series of IPython notebooks introducing statistical concepts for environmental modelling, especially **Bayesian Markov chain Monte Carlo (MCMC)** methods for model **calibration** and **uncertainty estimation**.
