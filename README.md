@@ -12,7 +12,7 @@
 
 3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
 
-    A first look at Bayes' Theorem applied to model calibration and an introduction to Monte Carlo (MC) methods.<br><br>
+    A first look at Bayes' Theorem applied to model calibration and an introduction to **Monte Carlo (MC)** methods.<br><br>
 
 # Introduction
 
