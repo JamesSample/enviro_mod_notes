@@ -16,7 +16,7 @@
     
 4. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
 
-    An introduction to basic Markov chain Monte Carlo (MCMC) methods, starting with the classic Metropolis algorithm.
+    An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.
 
 # Introduction
 
