@@ -13,6 +13,10 @@
 3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
 
     A first look at Bayes' Theorem applied to model calibration and an introduction to **Monte Carlo (MC)** methods.<br><br>
+    
+4. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
+
+    An introduction to basic Markov chain Monte Carlo (MCMC) methods, starting with the classic Metropolis algorithm.<br><br>
 
 # Introduction
 
