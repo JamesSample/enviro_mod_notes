@@ -1,4 +1,4 @@
-# Introductory statistics for environmental modelling
+# Statistics notes for environmental modelling
 
 ## Contents
 
@@ -16,7 +16,11 @@
     
 4. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
 
-    An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.
+    An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.<br><br>
+
+5. **[Solving ODEs](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
+
+    Eventually, this notebook will provide a simple example of how to use modern MCMC tools to calibrate a very simple hydrological model. First, though, I need to learn a bit more about numerically solving Ordinary Differential Equations (ODEs). For the moment, this notebook documents my attempts at solving ODEs in Python. Hopefully I'll be able to link this to MCMC model calibration and the previous notebooks before too long. Work in progress...
 
 # Introduction
 
@@ -36,7 +40,7 @@ In most cases I've abandoned mathematical rigour in favour of trying to give som
 
 My background is in geology, not statistics or hydrological modelling. I still have a great deal to learn and I'm sure these pages will contain mistakes and misconceptions. If you spot anything *completely wrong* (as opposed to just very simplified), I'm always happy to be corrected - you can either send a **pull request**, or contact <james.e.sample@gmail.com>.
 
-This isn't a course in statistics - it's just a set of notes that I'm making available online in the hope that others find them useful.
+**This isn't a course in statistics - it's just a set of personal notes that I'm making available online in the hope that other beginners might find them useful.**
 
 ## Other resources
 
