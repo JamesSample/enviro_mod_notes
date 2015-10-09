@@ -18,7 +18,7 @@
 
     An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.<br><br>
 
-5. **[Solving ODEs](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
+5. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_Beyond_Metropolis.ipynb)**
 
     Eventually, this notebook will provide a simple example of how to use modern MCMC tools to calibrate a very simple hydrological model. First, though, I need to learn a bit more about numerically solving Ordinary Differential Equations (ODEs). For the moment, this notebook documents my attempts at solving ODEs in Python. Hopefully I'll be able to link this to MCMC model calibration and the previous notebooks before too long. Work in progress...
 
@@ -58,7 +58,7 @@ The links at the top of this page will take you to static versions of my noteboo
 
 1. You'll need an up-to-date IPython installation. If you don't have one already try [WinPython](http://winpython.sourceforge.net/), which is a comprehensive and portable Python distribution that won't interfere with anything else on your system.<br><br> 
 
-2. Once WinPython is installed, go to one of the notebooks below and download the **.ipynb** file to your computer (the "download" icon is at the top-right of the screen).<br><br>
+2. Once WinPython is installed, go to one of the notebooks above and download the **.ipynb** file to your computer (the "download" icon is at the top-right of the screen).<br><br>
 
 3. Open the folder containing your WinPython installation and run the **WinPython Command Prompt** (not the normal Windows Command Prompt).<br><br>
 
