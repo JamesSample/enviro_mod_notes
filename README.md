@@ -24,7 +24,7 @@
 
 6. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
 
-    This notebook doesn't follow on from the others. It's a separate set of notes describing my experiments in how to solve ODE systems constrained by discontinuous thresholds. One way of dealing with this is to formulate your ODEs so that such thresholds aren't present (this is what I've note in notebook 5), but sometimes this isn't easy to do. I'm still getting to grips with this topic so please use the material presented here with caution! <br><br>
+    This notebook doesn't follow on from the others. It's a separate set of notes describing my experiments in how to solve ODE systems constrained by discontinuous thresholds. One way of dealing with this is to formulate your ODEs so that such thresholds aren't present (this is what I've done in notebook 5), but sometimes this isn't easy to do. I'm still getting to grips with this topic so please use the material presented here with caution! <br><br>
 
 # Introduction
 
