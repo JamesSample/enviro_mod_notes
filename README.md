@@ -20,7 +20,11 @@
 
 5. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_Beyond_Metropolis.ipynb)**
 
-    Eventually, this notebook will provide a simple example of how to use modern MCMC tools to calibrate a very simple hydrological model. First, though, I need to learn a bit more about numerically solving Ordinary Differential Equations (ODEs). For the moment, this notebook documents my attempts at solving ODEs in Python. Hopefully I'll be able to link this to MCMC model calibration and the previous notebooks before too long. Work in progress...
+    Eventually, this notebook will provide a simple example of how to use modern MCMC tools to calibrate a very simple hydrological model. First, though, I need to learn a bit more about numerically solving Ordinary Differential Equations (ODEs). For the moment, this notebook documents my attempts at solving ODEs in Python. Hopefully I'll be able to link this to MCMC model calibration and the previous notebooks before too long. Work in progress... <br><br>
+
+6. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
+
+    This notebook doesn't follow on from the others. It's a separate set of notes describing my experiments in how to solve ODE systems constrained by discontinuous thresholds. One way of dealing with this is to formulate your ODEs so that such thresholds aren't present (this is what I've note in notebook 5), but sometimes this isn't easy to do. I'm still getting to grips with this topic so please use the material presented here with caution! <br><br>
 
 # Introduction
 
