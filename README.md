@@ -20,7 +20,7 @@
 
 5. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_Beyond_Metropolis.ipynb)**
 
-    Eventually, this notebook will provide a simple example of how to use modern MCMC tools to calibrate a simple hydrological model. Work in progress... <br><br>
+    In this notebook, we'll build a simple hydrological model from scratch and then use modern MCMC tools to calibrate it. Work in progress... <br><br>
 
 6. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
 
