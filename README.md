@@ -18,11 +18,15 @@
 
     An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.<br><br>
 
-5. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_Beyond_Metropolis.ipynb)**
+5. **[A hydrological model](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_A_Hydrological_Model.ipynb)**
 
-    In this notebook, we'll build a simple hydrological model from scratch and then use modern MCMC tools to calibrate it. Work in progress... <br><br>
+    In this notebook, we'll build a simple hydrological model from scratch to illustrate the modelling process. <br><br>
 
-6. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
+6. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/06_Beyond_Metropolis.ipynb)**
+
+    How to use real catchment data and a state-of-the-art MCMC algorithm to calibrate the hydrological model from notebook 5. <br><br> 
+
+7. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
 
     This notebook doesn't follow on from the others. It's a separate set of notes describing my experiments in how to solve ODE systems constrained by discontinuous thresholds. One way of dealing with this is to formulate your ODEs so that such thresholds aren't present (this is what I've done in notebook 5), but sometimes this isn't easy to do. I'm still getting to grips with this topic so please use the material presented here with caution! <br><br>
 
