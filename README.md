@@ -10,26 +10,33 @@
 
     A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.<br><br>
 
-3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
+3. **[Gaussian approximations and model comparison](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Gaussian_Approx.ipynb)**
+    Using Gaussian approximations of the posterior and an introduction to Bayesian model comparison. **Work in progress**. <br><br>
+
+4. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_Monte_Carlo.ipynb)**
 
     A first look at Bayes' Theorem applied to model calibration and an introduction to **Monte Carlo (MC)** methods.<br><br>
     
-4. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
+5. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_MCMC.ipynb)**
 
     An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.<br><br>
 
-5. **[A hydrological model](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_A_Hydrological_Model.ipynb)**
+6. **[A hydrological model](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/06_A_Hydrological_Model.ipynb)**
 
     In this notebook, we'll build a simple hydrological model from scratch to illustrate the modelling process. <br><br>
 
-6. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/06_Beyond_Metropolis.ipynb)**
+7. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/07_Beyond_Metropolis.ipynb)**
 
     How to use real catchment data and a state-of-the-art MCMC algorithm to calibrate the hydrological model from notebook 5. <br><br> 
 
-7. **[Solving ODEs with constraints](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/odes.ipynb)**
+8. **[GLUE](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/08_GLUE.ipynb)**
 
-    This notebook doesn't follow on from the others. It's a separate set of notes describing my experiments in how to solve ODE systems constrained by discontinuous thresholds. One way of dealing with this is to formulate your ODEs so that such thresholds aren't present (this is what I've done in notebook 5), but sometimes this isn't easy to do. I'm still getting to grips with this topic so please use the material presented here with caution! <br><br>
+    Some comments on Generalised Likelihood Uncertainty Estimation (GLUE). **Work in progress** <br><br> 
+    
+9. **[Summary](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/09_Summary.ipynb)**
 
+    A summary of some options for practical parameter inference and model comparison. **Work in progress** <br><br> 
+    
 # Introduction
 
 This page links to a series of IPython notebooks introducing statistical concepts for environmental modelling, especially **Bayesian Markov chain Monte Carlo (MCMC)** methods for model **calibration** and **uncertainty estimation**.
