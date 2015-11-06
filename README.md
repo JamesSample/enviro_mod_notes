@@ -32,11 +32,11 @@
 
 8. **[Gaussian approximations and model comparison](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/08_Gaussian_Approx.ipynb)**
 
-    Using **Gaussian approximations** of the posterior and an introduction to Bayesian **model comparison**. *Work in progress*. <br><br>
+    **Gaussian approximations** of the posterior and an introduction to Bayesian **model comparison**. *Work in progress*. <br><br>
     
 9. **[Summary](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/09_Summary.ipynb)**
 
-    A summary of some options for practical **parameter inference** and **model comparison**. *Work in progress* <br><br> 
+    Practical options for **parameter inference** and **model comparison**. *Work in progress* <br><br> 
     
 # Introduction
 
