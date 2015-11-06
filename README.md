@@ -12,7 +12,7 @@
 
 3. **[Gaussian approximations and model comparison](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Gaussian_Approx.ipynb)**
 
-    Using **Gaussian approximations** of the posterior and an introduction to Bayesian **model compariso**n. *Work in progress*. <br><br>
+    Using **Gaussian approximations** of the posterior and an introduction to Bayesian **model comparison**. *Work in progress*. <br><br>
 
 4. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_Monte_Carlo.ipynb)**
 
