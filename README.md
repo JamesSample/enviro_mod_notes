@@ -2,39 +2,39 @@
 
 ## Contents
 
-1. **[Distributions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb)**
+1. **[Distributions](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/01_Distributions.ipynb)**
 
     A quick overview of multivariate distributions, with the aim of developing some intuition about the **Sum** and **Product** rules as well as how they relate to **Bayes' Theorem**.<br><br>
     
-2. **[Model calibration and likelihood functions](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
+2. **[Model calibration and likelihood functions](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/02_Calibration_Likelihood.ipynb)**
 
     A discussion of the issues relating to calibrating complex environmental models, which leads us to the concept of the all-important **likelihood function**.<br><br>
 
-3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
+3. **[Bayesian model calibration and Monte Carlo methods](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/03_Monte_Carlo.ipynb)**
 
     A first look at Bayes' Theorem applied to model calibration and an introduction to **Monte Carlo (MC)** methods.<br><br>
     
-4. **[Markov chain Monte Carlo methods](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
+4. **[Markov chain Monte Carlo methods](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/04_MCMC.ipynb)**
 
     An introduction to basic **Markov chain Monte Carlo (MCMC)** methods, starting with the classic Metropolis algorithm.<br><br>
 
-5. **[A hydrological model](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_A_Hydrological_Model.ipynb)**
+5. **[A hydrological model](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/05_A_Hydrological_Model.ipynb)**
 
     In this notebook, we'll build a simple **hydrological model** from scratch to illustrate the modelling process. <br><br>
 
-6. **[Beyond Metropolis](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/06_Beyond_Metropolis.ipynb)**
+6. **[Beyond Metropolis](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/06_Beyond_Metropolis.ipynb)**
 
     How to use real catchment data and a **state-of-the-art MCMC** algorithm to calibrate the hydrological model from notebook 5. <br><br> 
 
-7. **[GLUE](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/07_GLUE.ipynb)**
+7. **[GLUE](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/07_GLUE.ipynb)**
 
     Some comments on **Generalised Likelihood Uncertainty Estimation (GLUE)**. *Work in progress* <br><br> 
 
-8. **[Gaussian approximations and model comparison](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/08_Gaussian_Approx.ipynb)**
+8. **[Gaussian approximations and model comparison](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/08_Gaussian_Approx.ipynb)**
 
     **Gaussian approximations** of the posterior and an introduction to Bayesian **model comparison**. *Work in progress*. <br><br>
     
-9. **[Summary](http://nbviewer.ipython.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/09_Summary.ipynb)**
+9. **[Summary](http://nbviewer.org/github/JamesSample/enviro_mod_notes/blob/master/notebooks/09_Summary.ipynb)**
 
     Practical options for **parameter inference** and **model comparison**. *Work in progress* <br><br> 
     
@@ -70,7 +70,7 @@ Finally, if you're interested in these topics for work/research purposes (e.g. i
 
 ## Making the most of the IPython notebooks
 
-The links at the top of this page will take you to static versions of my notebooks rendered with [nbviewer](http://nbviewer.ipython.org/). However, to get the most of out of them, I recommend downloading each notebook to your computer and running it interactively. The following steps should get you started on Windows:
+The links at the top of this page will take you to static versions of my notebooks rendered with [nbviewer](http://nbviewer.org/). However, to get the most of out of them, I recommend downloading each notebook to your computer and running it interactively. The following steps should get you started on Windows:
 
 1. You'll need an up-to-date IPython installation. If you don't have one already try [WinPython](http://winpython.sourceforge.net/), which is a comprehensive and portable Python distribution that won't interfere with anything else on your system.<br><br> 
 
